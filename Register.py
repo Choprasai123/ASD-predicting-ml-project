@@ -2,7 +2,6 @@ import streamlit as st
 st.set_page_config(layout="wide")
 st.title('My First Streamlit App')
 import pandas as pd
-import plotly.express as px
 from streamlit_option_menu import option_menu
 from PIL import Image
 import time
