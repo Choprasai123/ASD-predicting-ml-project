@@ -1,12 +1,8 @@
 import streamlit as st
 st.set_page_config(layout="wide")
 st.title('My First Streamlit App')
-import pandas as pd
 from streamlit_option_menu import option_menu
-from PIL import Image
 import time
-import requests
-from streamlit_lottie import st_lottie
 
 # Security
 #passlib,hashlib,bcrypt,scrypt
