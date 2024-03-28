@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score
 st.title(":bookmark_tabs: :blue[Autism data assesment]")
 st.write("---")
 st.write("Fill the form below to check if your child is suffering from ASD ")
-autism_dataset = pd.read_csv('C:/Users/mothi/Desktop/chopra/ASD-predicting-ml-project-master/asd_data_csv.csv') 
+autism_dataset = pd.read_csv('asd_data_csv.csv') 
 # st.write(autism_dataset.head())
 # st.write(autism_dataset.describe())
 # st.write(autism_dataset['Outcome'].value_counts())
