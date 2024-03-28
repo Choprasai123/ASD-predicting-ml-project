@@ -5,7 +5,7 @@ import plotly.express as px
 st.title(":signal_strength: :blue[ Let's take a look at the statistics of last 5 years]")
 st.write("---")
 
-df = pd.read_csv('C:/Users/mothi/Desktop/chopra/ASD-predicting-ml-project-master/data_csv.csv')   
+df = pd.read_csv('data_csv.csv')   
 
 ASD_traits_data=df["ASD_traits"].unique().tolist()
 select_date=st.selectbox("ASD traits ?",ASD_traits_data)
