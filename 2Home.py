@@ -15,7 +15,7 @@ with st.container():
         Autism spectrum disorder (ASD) is a developmental disability caused by differences in the brain. People with ASD often have problems with social communication and interaction, and restricted or repetitive behaviors or interests. People with ASD may also have different ways of learning, moving, or paying attention.
         """)
     with col2:
-        img1=Image.open('C:/Users/mothi/Desktop/chopra/ASD-predicting-ml-project-master/image/asd_child.jpg')
+        img1=Image.open('asd_child.jpg')
         st.image(img1,width=300)
 
 
@@ -33,7 +33,7 @@ with st.container():
         :blue[Brain differences] : Differences in certain areas of the brain have been observed in people with ASD, compared to those without ASD. It is not yet known what causes these differences.
         """)
     with col2:
-        img1=Image.open('C:/Users/mothi/Desktop/chopra/ASD-predicting-ml-project-master/image/causes-of-autism.png')
+        img1=Image.open('causes-of-autism.png')
         st.image(img1,width=350, caption="Causes of ASD")
 
 
@@ -62,9 +62,9 @@ with st.container():
         """)
         st.write("[Learn More >](https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders)")
     with col2:
-        img=Image.open('C:/Users/mothi/Desktop/chopra/ASD-predicting-ml-project-master/image/autism.png')
+        img=Image.open('autism.png')
         st.image(img,caption="Signs of ASD")
-        img1=Image.open('C:/Users/mothi/Desktop/chopra/ASD-predicting-ml-project-master/image/Strategies.jpeg')
+        img1=Image.open('Strategies.jpeg')
         st.image(img1,caption="")
     
 
@@ -98,9 +98,9 @@ with st.container():
             """)
 
     with right_column:
-        img=Image.open('C:/Users/mothi/Desktop/chopra/ASD-predicting-ml-project-master/image/autism-stats-1.jpg')
+        img=Image.open('autism-stats-1.jpg')
         st.image(img,width=350,caption="ASD ststistics")
-        img1=Image.open('C:/Users/mothi/Desktop/chopra/ASD-predicting-ml-project-master/image/autism-stats-2.png')
+        img1=Image.open('autism-stats-2.png')
         st.image(img1,width=350,caption="USA data over 18 years")
 
 with st.container():
@@ -109,9 +109,9 @@ with st.container():
         "This year, WAAD will be observed with a virtual event on Sunday, 2 April, from 10:00 a.m. to 1:00 p.m. EDT.The event is organized in close collaboration with autistic people and will feature autistic people from around the world discussing how the transformation in the narrative around neurodiversity can continue to be furthered in order to overcome barriers and improve the lives of autistic people. It will also address the contributions that autistic people make – and can make – to society, and to the achievement of the Sustainable Development Goals."
     )
 c1,c2=st.columns([5,5])
-im=Image.open('C:/Users/mothi/Desktop/chopra/ASD-predicting-ml-project-master/image/World.png')
+im=Image.open('World.png')
 c1.image(im,caption="")
-im1=Image.open('C:/Users/mothi/Desktop/chopra/ASD-predicting-ml-project-master/image/Worlds.png')
+im1=Image.open('Worlds.png')
    
 c2.image(im1,caption="")
         
